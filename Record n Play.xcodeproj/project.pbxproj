@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EFA85A11C51B7DB00BE5C75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA85A01C51B7DB00BE5C75 /* AppDelegate.swift */; };
+		1EFA85A31C51B7DB00BE5C75 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA85A21C51B7DB00BE5C75 /* RecordSoundsViewController.swift */; };
+		1EFA85A61C51B7DB00BE5C75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFA85A41C51B7DB00BE5C75 /* Main.storyboard */; };
+		1EFA85A81C51B7DB00BE5C75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EFA85A71C51B7DB00BE5C75 /* Assets.xcassets */; };
+		1EFA85AB1C51B7DB00BE5C75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1EFA85A91C51B7DB00BE5C75 /* LaunchScreen.storyboard */; };
+		1EFA85B61C51B7DC00BE5C75 /* Record_n_PlayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA85B51C51B7DC00BE5C75 /* Record_n_PlayTests.swift */; };
+		1EFA85C11C51B7DC00BE5C75 /* Record_n_PlayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA85C01C51B7DC00BE5C75 /* Record_n_PlayUITests.swift */; };
+		1EFA85CF1C5289A400BE5C75 /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA85CE1C5289A400BE5C75 /* RecordedAudio.swift */; };
+		1EFA85D11C528CB700BE5C75 /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA85D01C528CB700BE5C75 /* PlaySoundsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EFA85B21C51B7DC00BE5C75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EFA85951C51B7DB00BE5C75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFA859C1C51B7DB00BE5C75;
+			remoteInfo = "Record n Play";
+		};
+		1EFA85BD1C51B7DC00BE5C75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1EFA85951C51B7DB00BE5C75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1EFA859C1C51B7DB00BE5C75;
+			remoteInfo = "Record n Play";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1EFA859D1C51B7DB00BE5C75 /* Record n Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Record n Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFA85A01C51B7DB00BE5C75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1EFA85A21C51B7DB00BE5C75 /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
+		1EFA85A51C51B7DB00BE5C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1EFA85A71C51B7DB00BE5C75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1EFA85AA1C51B7DB00BE5C75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1EFA85AC1C51B7DB00BE5C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFA85B11C51B7DC00BE5C75 /* Record n PlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Record n PlayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFA85B51C51B7DC00BE5C75 /* Record_n_PlayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record_n_PlayTests.swift; sourceTree = "<group>"; };
+		1EFA85B71C51B7DC00BE5C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFA85BC1C51B7DC00BE5C75 /* Record n PlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Record n PlayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EFA85C01C51B7DC00BE5C75 /* Record_n_PlayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record_n_PlayUITests.swift; sourceTree = "<group>"; };
+		1EFA85C21C51B7DC00BE5C75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1EFA85CE1C5289A400BE5C75 /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
+		1EFA85D01C528CB700BE5C75 /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1EFA859A1C51B7DB00BE5C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFA85AE1C51B7DC00BE5C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFA85B91C51B7DC00BE5C75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EFA85941C51B7DB00BE5C75 = {
+			isa = PBXGroup;
+			children = (
+				1EFA859F1C51B7DB00BE5C75 /* Record n Play */,
+				1EFA85B41C51B7DC00BE5C75 /* Record n PlayTests */,
+				1EFA85BF1C51B7DC00BE5C75 /* Record n PlayUITests */,
+				1EFA859E1C51B7DB00BE5C75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1EFA859E1C51B7DB00BE5C75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1EFA859D1C51B7DB00BE5C75 /* Record n Play.app */,
+				1EFA85B11C51B7DC00BE5C75 /* Record n PlayTests.xctest */,
+				1EFA85BC1C51B7DC00BE5C75 /* Record n PlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1EFA859F1C51B7DB00BE5C75 /* Record n Play */ = {
+			isa = PBXGroup;
+			children = (
+				1EFA85A01C51B7DB00BE5C75 /* AppDelegate.swift */,
+				1EFA85A21C51B7DB00BE5C75 /* RecordSoundsViewController.swift */,
+				1EFA85A41C51B7DB00BE5C75 /* Main.storyboard */,
+				1EFA85A71C51B7DB00BE5C75 /* Assets.xcassets */,
+				1EFA85A91C51B7DB00BE5C75 /* LaunchScreen.storyboard */,
+				1EFA85AC1C51B7DB00BE5C75 /* Info.plist */,
+				1EFA85CE1C5289A400BE5C75 /* RecordedAudio.swift */,
+				1EFA85D01C528CB700BE5C75 /* PlaySoundsViewController.swift */,
+			);
+			path = "Record n Play";
+			sourceTree = "<group>";
+		};
+		1EFA85B41C51B7DC00BE5C75 /* Record n PlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				1EFA85B51C51B7DC00BE5C75 /* Record_n_PlayTests.swift */,
+				1EFA85B71C51B7DC00BE5C75 /* Info.plist */,
+			);
+			path = "Record n PlayTests";
+			sourceTree = "<group>";
+		};
+		1EFA85BF1C51B7DC00BE5C75 /* Record n PlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1EFA85C01C51B7DC00BE5C75 /* Record_n_PlayUITests.swift */,
+				1EFA85C21C51B7DC00BE5C75 /* Info.plist */,
+			);
+			path = "Record n PlayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1EFA859C1C51B7DB00BE5C75 /* Record n Play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFA85C51C51B7DC00BE5C75 /* Build configuration list for PBXNativeTarget "Record n Play" */;
+			buildPhases = (
+				1EFA85991C51B7DB00BE5C75 /* Sources */,
+				1EFA859A1C51B7DB00BE5C75 /* Frameworks */,
+				1EFA859B1C51B7DB00BE5C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Record n Play";
+			productName = "Record n Play";
+			productReference = 1EFA859D1C51B7DB00BE5C75 /* Record n Play.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1EFA85B01C51B7DC00BE5C75 /* Record n PlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFA85C81C51B7DC00BE5C75 /* Build configuration list for PBXNativeTarget "Record n PlayTests" */;
+			buildPhases = (
+				1EFA85AD1C51B7DC00BE5C75 /* Sources */,
+				1EFA85AE1C51B7DC00BE5C75 /* Frameworks */,
+				1EFA85AF1C51B7DC00BE5C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EFA85B31C51B7DC00BE5C75 /* PBXTargetDependency */,
+			);
+			name = "Record n PlayTests";
+			productName = "Record n PlayTests";
+			productReference = 1EFA85B11C51B7DC00BE5C75 /* Record n PlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1EFA85BB1C51B7DC00BE5C75 /* Record n PlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1EFA85CB1C51B7DC00BE5C75 /* Build configuration list for PBXNativeTarget "Record n PlayUITests" */;
+			buildPhases = (
+				1EFA85B81C51B7DC00BE5C75 /* Sources */,
+				1EFA85B91C51B7DC00BE5C75 /* Frameworks */,
+				1EFA85BA1C51B7DC00BE5C75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1EFA85BE1C51B7DC00BE5C75 /* PBXTargetDependency */,
+			);
+			name = "Record n PlayUITests";
+			productName = "Record n PlayUITests";
+			productReference = 1EFA85BC1C51B7DC00BE5C75 /* Record n PlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1EFA85951C51B7DB00BE5C75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Arunjot Singh";
+				TargetAttributes = {
+					1EFA859C1C51B7DB00BE5C75 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZNF5PUBL3L;
+					};
+					1EFA85B01C51B7DC00BE5C75 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZNF5PUBL3L;
+						TestTargetID = 1EFA859C1C51B7DB00BE5C75;
+					};
+					1EFA85BB1C51B7DC00BE5C75 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = ZNF5PUBL3L;
+						TestTargetID = 1EFA859C1C51B7DB00BE5C75;
+					};
+				};
+			};
+			buildConfigurationList = 1EFA85981C51B7DB00BE5C75 /* Build configuration list for PBXProject "Record n Play" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1EFA85941C51B7DB00BE5C75;
+			productRefGroup = 1EFA859E1C51B7DB00BE5C75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1EFA859C1C51B7DB00BE5C75 /* Record n Play */,
+				1EFA85B01C51B7DC00BE5C75 /* Record n PlayTests */,
+				1EFA85BB1C51B7DC00BE5C75 /* Record n PlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1EFA859B1C51B7DB00BE5C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFA85AB1C51B7DB00BE5C75 /* LaunchScreen.storyboard in Resources */,
+				1EFA85A81C51B7DB00BE5C75 /* Assets.xcassets in Resources */,
+				1EFA85A61C51B7DB00BE5C75 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFA85AF1C51B7DC00BE5C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFA85BA1C51B7DC00BE5C75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1EFA85991C51B7DB00BE5C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFA85CF1C5289A400BE5C75 /* RecordedAudio.swift in Sources */,
+				1EFA85A31C51B7DB00BE5C75 /* RecordSoundsViewController.swift in Sources */,
+				1EFA85D11C528CB700BE5C75 /* PlaySoundsViewController.swift in Sources */,
+				1EFA85A11C51B7DB00BE5C75 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFA85AD1C51B7DC00BE5C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFA85B61C51B7DC00BE5C75 /* Record_n_PlayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EFA85B81C51B7DC00BE5C75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EFA85C11C51B7DC00BE5C75 /* Record_n_PlayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1EFA85B31C51B7DC00BE5C75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EFA859C1C51B7DB00BE5C75 /* Record n Play */;
+			targetProxy = 1EFA85B21C51B7DC00BE5C75 /* PBXContainerItemProxy */;
+		};
+		1EFA85BE1C51B7DC00BE5C75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1EFA859C1C51B7DB00BE5C75 /* Record n Play */;
+			targetProxy = 1EFA85BD1C51B7DC00BE5C75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1EFA85A41C51B7DB00BE5C75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFA85A51C51B7DB00BE5C75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1EFA85A91C51B7DB00BE5C75 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1EFA85AA1C51B7DB00BE5C75 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1EFA85C31C51B7DC00BE5C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1EFA85C41C51B7DC00BE5C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1EFA85C61C51B7DC00BE5C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Record n Play/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arunjot.Record-n-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1EFA85C71C51B7DC00BE5C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Record n Play/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arunjot.Record-n-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1EFA85C91C51B7DC00BE5C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Record n PlayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arunjot.Record-n-PlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Record n Play.app/Record n Play";
+			};
+			name = Debug;
+		};
+		1EFA85CA1C51B7DC00BE5C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Record n PlayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arunjot.Record-n-PlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Record n Play.app/Record n Play";
+			};
+			name = Release;
+		};
+		1EFA85CC1C51B7DC00BE5C75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Record n PlayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arunjot.Record-n-PlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Record n Play";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1EFA85CD1C51B7DC00BE5C75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Record n PlayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.arunjot.Record-n-PlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Record n Play";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1EFA85981C51B7DB00BE5C75 /* Build configuration list for PBXProject "Record n Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFA85C31C51B7DC00BE5C75 /* Debug */,
+				1EFA85C41C51B7DC00BE5C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1EFA85C51C51B7DC00BE5C75 /* Build configuration list for PBXNativeTarget "Record n Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFA85C61C51B7DC00BE5C75 /* Debug */,
+				1EFA85C71C51B7DC00BE5C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EFA85C81C51B7DC00BE5C75 /* Build configuration list for PBXNativeTarget "Record n PlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFA85C91C51B7DC00BE5C75 /* Debug */,
+				1EFA85CA1C51B7DC00BE5C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1EFA85CB1C51B7DC00BE5C75 /* Build configuration list for PBXNativeTarget "Record n PlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EFA85CC1C51B7DC00BE5C75 /* Debug */,
+				1EFA85CD1C51B7DC00BE5C75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1EFA85951C51B7DB00BE5C75 /* Project object */;
+}
